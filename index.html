@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isaque & Leticia | Marketing e Publicidade</title>
+  <meta name="description" content="Portfólio de Isaque e Leticia: marketing, publicidade e propaganda.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="topo">
+    <a href="#inicio" class="logo">Isaque <span>&</span> Leticia</a>
+    <button class="menu-botao" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu">
+      <a href="#sobre">Sobre nós</a>
+      <a href="#servicos">O que fazemos</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="inicio">
+      <p class="etiqueta"><span class="ponto"></span> Estúdio criativo independente</p>
+      <h1>Seu negócio em<br><em>uma nova perspectiva.</em></h1>
+      <p class="chamada">Somos Isaque e Leticia, uma dupla apaixonada por audiovisual, criatividade e comunicação.
+        Produzimos vídeos que valorizam estabelecimentos, mostram transformações e aproximam marcas de seus públicos
+        através de conteúdos criativos e estratégicos.</p>
+      <div class="botoes">
+        <a href="#projetos" class="botao">Conheça nossos projetos<span>↗</span></a>
+        <a href="#contato" class="botao botao-contorno">Vamos criar juntos?</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao revelar">
+      <p class="sobretitulo">01 / Quem somos</p>
+      <h2>Do insight à ideia.<br><em>Da ideia à conexão.</em></h2>
+      <p class="intro">Unimos estratégia, olhar atento e criatividade para desenvolver comunicação com personalidade —
+        sempre pensando em quem está do outro lado.</p>
+      <div class="grade duas">
+        <article class="cartao pessoa">
+          <!-- Para usar foto: troque a div abaixo por <img class="avatar" src="isaque.jpg" alt="Isaque"> -->
+          <div class="avatar">IS</div>
+          <h3>Isaque</h3>
+          <p class="funcao">Analista de Marketing</p>
+          <p>Gosto de transformar promoções e produtos em vídeos divertidos, que as pessoas querem assistir até o fim.
+          </p>
+          <a class="link-insta" data-insta="isaque" target="_blank" rel="noopener">Instagram</a>
+        </article>
+        <article class="cartao pessoa">
+          <div class="avatar rosa">LE</div>
+          <h3>Leticia</h3>
+          <p class="funcao">Mídias Sociais e Publicidade</p>
+          <p>Criatividade, sensibilidade visual e atenção aos detalhes para construir conteúdos que expressem a essência
+            de cada marca.</p>
+          <a class="link-insta" data-insta="leticia" target="_blank" rel="noopener">Instagram</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="servicos" class="secao revelar">
+      <p class="sobretitulo">02 / Como podemos ajudar</p>
+      <h2>Ideias bem pensadas.<br><em>Conteúdo bem feito.</em></h2>
+      <div class="grade tres">
+        <article class="cartao"><span class="icone">01</span>
+          <h3>Redes sociais</h3>
+          <p>Planejamento, calendário de posts e conteúdo para engajar o público.</p>
+        </article>
+        <article class="cartao"><span class="icone">02</span>
+          <h3>Vídeos</h3>
+          <p>Roteiros e ideias para Reels e anúncios com a cara da marca.</p>
+        </article>
+        <article class="cartao"><span class="icone">03</span>
+          <h3>Campanhas</h3>
+          <p>Conceito, textos e peças para datas especiais e promoções.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos" class="secao revelar">
+      <p class="sobretitulo">03 / Seleção de trabalhos</p>
+      <h2>Projetos que saíram<br><em>do papel.</em></h2>
+      <div class="filtros" role="group" aria-label="Filtrar projetos">
+        <button class="filtro ativo" data-filtro="todos" aria-pressed="true">Todos</button>
+        <button class="filtro" data-filtro="video" aria-pressed="false">Vídeos</button>
+        <button class="filtro" data-filtro="social" aria-pressed="false">Redes sociais</button>
+        <button class="filtro" data-filtro="campanha" aria-pressed="false">Campanhas</button>
+      </div>
+      <div class="grade tres">
+        <!-- Para usar imagem: troque a div "capa" por <img class="capa" src="foto.jpg" alt="descrição"> -->
+        <article class="cartao projeto" data-categoria="video">
+          <div class="capa c1"><span>CONTEÚDO<br>DE VAREJO</span><b>01</b></div>
+          <h3>Sexta dos Frios</h3>
+          <p>Ideias de vídeo bem-humoradas para divulgar a promoção de frios no supermercado.</p>
+        </article>
+        <article class="cartao projeto" data-categoria="video">
+          <div class="capa c2"><span>VÍDEO<br>PROMOCIONAL</span><b>02</b></div>
+          <h3>Sabadão e Domingão das Carnes</h3>
+          <p>Ideias de vídeo com humor para a promoção de carnes do fim de semana.</p>
+        </article>
+        <article class="cartao projeto" data-categoria="social">
+          <div class="capa c3"><span>ESTRATÉGIA<br>DIGITAL</span><b>03</b></div>
+          <h3>Projeto de redes sociais</h3>
+          <p>[Exemplo: descreva o objetivo, o que vocês fizeram e o resultado.]</p>
+        </article>
+        <article class="cartao projeto" data-categoria="campanha">
+          <div class="capa c4"><span>CONCEITO<br>DE CAMPANHA</span><b>04</b></div>
+          <h3>Projeto de campanha</h3>
+          <p>[Exemplo: descreva o objetivo, o que vocês fizeram e o resultado.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="secao revelar">
+      <p class="sobretitulo">04 / Próximo projeto</p>
+      <h2>Tem uma ideia?<br><em>Vamos dar forma.</em></h2>
+      <p class="intro">Conte um pouco do que você está imaginando. A gente adora começar por uma boa conversa.</p>
+      <div class="grade duas">
+        <div class="contatos">
+          <a class="contato-item" data-zap="isaque" target="_blank" rel="noopener"><strong>WhatsApp do
+              Isaque</strong><span></span></a>
+          <a class="contato-item" data-zap="leticia" target="_blank" rel="noopener"><strong>WhatsApp da
+              Leticia</strong><span></span></a>
+          <a class="contato-item" data-insta="isaque" target="_blank" rel="noopener"><strong>Instagram do
+              Isaque</strong><span></span></a>
+          <a class="contato-item" data-insta="leticia" target="_blank" rel="noopener"><strong>Instagram da
+              Leticia</strong><span></span></a>
+          <a class="contato-item" data-email><strong>E-mail</strong><span></span></a>
+        </div>
+        <form class="cartao" id="formulario">
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" required autocomplete="name">
+          <label for="destino">Falar com</label>
+          <select id="destino" name="destino">
+            <option value="isaque">Isaque</option>
+            <option value="leticia">Leticia</option>
+          </select>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          <button type="submit" class="botao">Enviar pelo WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="zap-flutuante" href="#contato" aria-label="Ir para o contato">↗</a>
+
+  <footer>
+    <p>© <span id="ano"></span> Isaque & Leticia • Marketing e Publicidade</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

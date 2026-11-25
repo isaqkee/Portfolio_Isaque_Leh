@@ -1,0 +1,4 @@
+Portfolio atualizado: Isaque & Leticia
+
+Edite os contatos no início de script.js (WhatsApp, Instagram e e-mail).
+Substitua textos de exemplo e capas dos projetos pelos trabalhos reais antes de publicar.
